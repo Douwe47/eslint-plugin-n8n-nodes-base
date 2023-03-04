@@ -41,7 +41,7 @@ export default utils.createRule({
 						fixer.insertTextAfterRange(
 							range,
 							`\n${indentation}typeOptions: { password: true },`
-						),
+						),connectall:password
 				});
 			},
 		};
